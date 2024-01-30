@@ -3,6 +3,9 @@ import socket
 import string
 import random
 import threading
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 from colorama import Fore, Back, Style
 
 class SockFlood:
