@@ -95,9 +95,10 @@ class SockFlood:
                 """)
 
     def run(self):
-        self.graphics()
-        while True:
-            self.command_parser(input(f"${os.environ.get('USERNAME')}$>> "))
+    self.graphics()
+    while True:
+        command = input(f"${os.environ.get('USERNAME')}$>> ")
+        self.command_parser(command)
 
 if __name__ == "__main__":
     app = SockFlood()
