@@ -55,8 +55,9 @@ l-urk · ハッカーL Hakkā L
 ```
 GitHub: github.com/l-urk
 ```
-Contributions
-Mr.Robot aka The White Rose, discord marzipan1476. 
+## Contributions
+Mr.Robot aka The White Rose, discord marzipan1476. Created the banner and added improvements to the code.
+
 Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or create a pull request.
 
 License
