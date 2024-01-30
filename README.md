@@ -51,10 +51,12 @@ Start the DDoS attack with the configured parameters.
 Usage of PsyFlood for malicious purposes is strictly prohibited. Ensure that you have the legal right to perform any testing or DDoS activities. The author and contributors are not responsible for any misuse or damage caused by this tool. Use it responsibly and ethically.
 
 ## Author
-L
+l-urk · ハッカーL Hakkā L
+```
 GitHub: github.com/l-urk
+```
 Contributions
-
+Mr.Robot aka The White Rose, discord marzipan1476. 
 Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or create a pull request.
 
 License
