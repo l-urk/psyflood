@@ -13,27 +13,27 @@ class SockFlood:
         self.portnum = None
         self.threads = None
 
-def graphics(self):
-    banner = """
-     ██▓███    ██████ ▓██   ██▓  █████▒ ██▓     ▒█████   ▒█████  ▓█████▄ 
-    ▓██░  ██▒▒██    ▒  ▒██  ██▒▓██   ▒ ▓██▒    ▒██▒  ██▒▒██▒  ██▒▒██▀ ██▌
-    ▓██░ ██▓▒░ ▓██▄     ▒██ ██░▒████ ░ ▒██░    ▒██░  ██▒▒██░  ██▒░██   █▌
-    ▒██▄█▓▒ ▒  ▒   ██▒  ░ ▐██▓░░▓█▒  ░ ▒██░    ▒██   ██░▒██   ██░░▓█▄   ▌
-    ▒██▒ ░  ░▒██████▒▒  ░ ██▒▓░░▒█░    ░██████▒░ ████▓▒░░ ████▓▒░░▒████▓ 
-    ▒▓▒░ ░  ░▒ ▒▓▒ ▒ ░   ██▒▒▒  ▒ ░    ░ ▒░▓  ░░ ▒░▒░▒░ ░ ▒░▒░▒░  ▒▒▓  ▒ 
-    ░▒ ░     ░ ░▒  ░ ░ ▓██ ░▒░  ░      ░ ░ ▒  ░  ░ ▒ ▒░   ░ ▒ ▒░  ░ ▒  ▒ 
-    ░░       ░  ░  ░   ▒ ▒ ░░   ░ ░      ░ ░   ░ ░ ░ ▒  ░ ░ ░ ▒   ░ ░  ░ 
-                   ░   ░ ░                 ░  ░    ░ ░      ░ ░     ░    
-                       ░ ░                                        ░      
-    """
-    print(banner.encode('utf-8').decode(sys.stdout.encoding))
-    print("""
-    [+] An Advance DDOS Tool Using Sockets Written in Python [+]
-    [+] Developed by : L aka Hakka L" Kira and Mr.Robot aka the White Rose or Rinzler [+]
-    """)
-    print("""
-    [+] Type `help` If You Are A Beginner [+]
-    """)
+    def graphics(self):
+        banner = """
+         ██▓███    ██████ ▓██   ██▓  █████▒ ██▓     ▒█████   ▒█████  ▓█████▄ 
+        ▓██░  ██▒▒██    ▒  ▒██  ██▒▓██   ▒ ▓██▒    ▒██▒  ██▒▒██▒  ██▒▒██▀ ██▌
+        ▓██░ ██▓▒░ ▓██▄     ▒██ ██░▒████ ░ ▒██░    ▒██░  ██▒▒██░  ██▒░██   █▌
+        ▒██▄█▓▒ ▒  ▒   ██▒  ░ ▐██▓░░▓█▒  ░ ▒██░    ▒██   ██░▒██   ██░░▓█▄   ▌
+        ▒██▒ ░  ░▒██████▒▒  ░ ██▒▓░░▒█░    ░██████▒░ ████▓▒░░ ████▓▒░░▒████▓ 
+        ▒▓▒░ ░  ░▒ ▒▓▒ ▒ ░   ██▒▒▒  ▒ ░    ░ ▒░▓  ░░ ▒░▒░▒░ ░ ▒░▒░▒░  ▒▒▓  ▒ 
+        ░▒ ░     ░ ░▒  ░ ░ ▓██ ░▒░  ░      ░ ░ ▒  ░  ░ ▒ ▒░   ░ ▒ ▒░  ░ ▒  ▒ 
+        ░░       ░  ░  ░   ▒ ▒ ░░   ░ ░      ░ ░   ░ ░ ░ ▒  ░ ░ ░ ▒   ░ ░  ░ 
+                       ░   ░ ░                 ░  ░    ░ ░      ░ ░     ░    
+                           ░ ░                                        ░      
+        """
+        print(banner.encode('utf-8').decode(sys.stdout.encoding))
+        print("""
+        [+] An Advance DDOS Tool Using Sockets Written in Python [+]
+        [+] Developed by : L aka Hakka L" Kira and Mr.Robot aka the White Rose or Rinzler [+]
+        """)
+        print("""
+        [+] Type `help` If You Are A Beginner [+]
+        """)
 
 
     def start_attack(self, host, port=None):
